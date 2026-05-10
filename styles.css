@@ -70,12 +70,17 @@ a {
 }
 
 .site-header {
+  position: sticky;
+  top: 0;
+  z-index: 40;
   display: flex;
   min-height: 76px;
   align-items: center;
   justify-content: space-between;
   gap: 24px;
   border-bottom: 1px solid rgba(234, 223, 219, 0.78);
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(18px);
 }
 
 .brand,
@@ -402,6 +407,11 @@ h1 {
 .education-intro p,
 .text-section p {
   max-width: 100%;
+  border: 1px solid rgba(234, 223, 219, 0.9);
+  border-radius: 8px;
+  background: rgba(255, 250, 249, 0.74);
+  box-shadow: 0 16px 44px rgba(89, 32, 24, 0.06);
+  padding: 22px 26px;
   color: var(--text);
   font-size: clamp(17px, 1.55vw, 22px);
   font-weight: 400;
@@ -414,7 +424,7 @@ h1 {
   max-width: 920px;
   font-size: clamp(17px, 1.45vw, 21px);
   line-height: 1.9;
-  text-align: center;
+  text-align: left;
 }
 
 .text-section {
@@ -561,9 +571,15 @@ h1 {
   margin-right: auto;
   margin-bottom: 22px;
   margin-left: auto;
+  border: 1px solid rgba(234, 223, 219, 0.9);
+  border-radius: 8px;
+  background: rgba(255, 250, 249, 0.74);
+  box-shadow: 0 16px 44px rgba(89, 32, 24, 0.06);
+  padding: 22px 26px;
   color: var(--muted);
   font-size: clamp(17px, 1.45vw, 21px);
   line-height: 1.9;
+  text-align: left;
 }
 
 .profile-link {
@@ -653,8 +669,8 @@ h1 {
   margin-left: auto;
   border: 1px solid rgba(234, 223, 219, 0.9);
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.78);
-  box-shadow: 0 16px 44px rgba(89, 32, 24, 0.07);
+  background: rgba(255, 250, 249, 0.78);
+  box-shadow: 0 16px 44px rgba(89, 32, 24, 0.06);
   padding: 22px 26px;
   color: var(--text);
   font-size: clamp(15px, 1.18vw, 18px);
@@ -937,6 +953,7 @@ h1 {
   .education-intro p,
   .text-section p {
     font-size: 17px;
+    padding: 18px;
   }
 }
 
@@ -1050,6 +1067,10 @@ h1 {
   .story-summary {
     padding: 18px;
     font-size: 15px;
+  }
+
+  .showcase-intro p {
+    padding: 18px;
   }
 
   .document-viewer iframe {
