@@ -445,7 +445,6 @@ h1 {
   align-content: center;
   justify-items: center;
   padding: 34px 0 38px;
-  text-align: center;
 }
 
 .section-title-row {
@@ -1106,4 +1105,11 @@ h1 {
     animation: none !important;
     transition: none !important;
   }
+}
+
+.education-page .education-intro > p,
+.education-page .text-section > p {
+  width: 100%;
+  justify-self: stretch;
+  text-align: left !important;
 }
