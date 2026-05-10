@@ -375,10 +375,13 @@ h1 {
 }
 
 .education-page {
+  display: grid;
+  justify-items: center;
   padding: 58px 0 86px;
 }
 
 .education-intro {
+  width: min(100%, 1040px);
   min-height: auto;
   display: grid;
   align-content: center;
@@ -410,6 +413,7 @@ h1 {
 }
 
 .text-section {
+  width: min(100%, 1040px);
   min-height: auto;
   display: grid;
   align-content: center;
@@ -455,7 +459,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  max-width: 1020px;
+  max-width: 100%;
 }
 
 .course-flow span {
@@ -480,7 +484,7 @@ h1 {
 .skill-map {
   display: grid;
   gap: 14px;
-  max-width: 1080px;
+  max-width: 100%;
 }
 
 .skill-row {
@@ -525,11 +529,13 @@ h1 {
 }
 
 .showcase-page {
+  display: grid;
+  justify-items: center;
   padding: 58px 0 92px;
 }
 
 .showcase-intro {
-  max-width: 960px;
+  width: min(100%, 1040px);
   padding: 30px 0 42px;
 }
 
@@ -577,6 +583,7 @@ h1 {
 }
 
 .story-block {
+  width: min(100%, 1040px);
   padding: 36px 0 0;
 }
 
@@ -616,7 +623,7 @@ h1 {
 }
 
 .story-summary {
-  max-width: 1040px;
+  max-width: 100%;
   margin-bottom: 24px;
   color: var(--text);
   font-size: clamp(16px, 1.45vw, 20px);
