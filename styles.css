@@ -600,12 +600,15 @@ h1 {
 }
 
 .story-heading {
-  display: grid;
-  grid-template-columns: 128px minmax(0, 720px);
-  justify-content: center;
-  gap: 24px;
+  display: flex;
+  max-width: 900px;
+  flex-direction: column;
   align-items: center;
+  gap: 16px;
+  margin-right: auto;
   margin-bottom: 22px;
+  margin-left: auto;
+  text-align: center;
 }
 
 .story-heading > span {
@@ -626,6 +629,7 @@ h1 {
   margin: 0 0 8px;
   font-size: clamp(26px, 3.4vw, 44px);
   line-height: 1.15;
+  text-align: center;
 }
 
 .story-heading p {
@@ -633,6 +637,7 @@ h1 {
   color: var(--muted);
   font-size: 15px;
   line-height: 1.7;
+  text-align: center;
 }
 
 .story-summary {
@@ -910,15 +915,6 @@ h1 {
 
   .portal-section {
     grid-template-columns: 1fr;
-  }
-
-  .story-heading {
-    grid-template-columns: 1fr;
-    gap: 14px;
-  }
-
-  .story-heading > span {
-    justify-self: start;
   }
 
   .education-intro,
