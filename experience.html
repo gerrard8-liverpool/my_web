@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Research & Internship | Gerrard Ren</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ambient-light" aria-hidden="true"></div>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">R</span>
+          <span class="brand-text" data-i18n="brand">Gerrard Ren</span>
+        </a>
+        <div class="header-actions">
+          <button class="language-toggle" type="button" aria-label="Switch language">
+            <span class="toggle-track" aria-hidden="true">
+              <span class="toggle-thumb"></span>
+            </span>
+            <span class="language-label">EN</span>
+          </button>
+        </div>
+      </header>
+
+      <main class="showcase-page">
+        <section class="showcase-intro section-reveal">
+          <h1 data-i18n="experiencePageTitle">科研经历及实习经历</h1>
+          <p data-i18n="experiencePageIntro">
+            我的科研经历目前集中在视觉语言模型、提示学习与多臂老虎机算法相关方向。现阶段展示两段经历：一段是 2026 年开始的
+            CLIP prompt learning 科研项目，另一段是 2025 年 7 月完成的多臂老虎机算法研究与论文发表项目。
+          </p>
+        </section>
+
+        <section class="story-block section-reveal">
+          <div class="story-heading">
+            <span data-i18n="researchPeriod">2026 - 至今</span>
+            <div>
+              <h2 data-i18n="researchInstitute">福建省数字中国研究院</h2>
+              <p data-i18n="researchMeta">导师：黄展超 · 科研项目经历</p>
+            </div>
+          </div>
+
+          <p class="story-summary" data-i18n="researchSummary">
+            该经历围绕 CLIP prompt learning 与跨数据集稳健迁移展开。我在导师指导下推进项目调研、方法设计、实验管线搭建、
+            结果分析与文档整理，重点探索如何利用数据集级先验提升 CoOp 类方法在跨数据集场景下的泛化表现。
+          </p>
+
+          <button class="expand-toggle" type="button" data-expand-target="research-report" aria-expanded="false">
+            <span data-i18n="expandDetails">展开详情</span>
+          </button>
+
+          <div class="expand-panel" id="research-report" hidden>
+            <div class="panel-toolbar">
+              <span data-i18n="technicalReportLabel">技术报告</span>
+              <button class="panel-close" type="button" data-close-target="research-report" data-i18n="collapseDetails">收起详情</button>
+            </div>
+            <div class="document-grid">
+              <article class="document-viewer">
+                <div class="document-heading">
+                  <span data-i18n="technicalReportLabel">技术报告</span>
+                  <a href="assets/coop-priorres-technical-report.pdf" target="_blank" rel="noreferrer">PDF</a>
+                </div>
+                <iframe src="assets/coop-priorres-technical-report.pdf#view=FitH" title="CoOpPriorRes technical report"></iframe>
+              </article>
+            </div>
+            <a class="profile-link compact" href="https://github.com/gerrard8-liverpool/task_level_CoOp" target="_blank" rel="noreferrer">
+              <span data-i18n="projectRepository">项目仓库</span>
+              <strong>task_level_CoOp</strong>
+            </a>
+          </div>
+        </section>
+
+        <section class="story-block section-reveal">
+          <div class="story-heading">
+            <span data-i18n="banditPeriod">2025.07</span>
+            <div>
+              <h2 data-i18n="banditTitle">多臂老虎机算法研究与论文发表项目</h2>
+              <p data-i18n="banditMeta">组长、核心作者 · Dr. Osman Yağan · 北京线下研究项目</p>
+            </div>
+          </div>
+
+          <p class="story-summary" data-i18n="banditSummary">
+            该项目围绕多臂老虎机算法及其在推荐系统等场景中的应用展开。我担任小组组长和核心作者，带领团队基于
+            MovieLens 推荐数据集开展实证分析，重点负责 Thompson Sampling、UCB 等算法的分析、可视化和结果解读，
+            并参与完成 EvoClusterBandit 论文写作。该论文已被 ACAAI 2025 接收。
+          </p>
+
+          <button class="expand-toggle" type="button" data-expand-target="bandit-documents" aria-expanded="false">
+            <span data-i18n="expandDetails">展开详情</span>
+          </button>
+
+          <div class="expand-panel" id="bandit-documents" hidden>
+            <div class="panel-toolbar">
+              <span data-i18n="banditDocumentsLabel">项目材料</span>
+              <button class="panel-close" type="button" data-close-target="bandit-documents" data-i18n="collapseDetails">收起详情</button>
+            </div>
+            <div class="document-grid">
+              <article class="document-viewer">
+                <div class="document-heading">
+                  <span data-i18n="banditPaperLabel">ACAAI 论文</span>
+                  <a href="assets/acaai-evoclusterbandit-paper.pdf" target="_blank" rel="noreferrer">PDF</a>
+                </div>
+                <iframe src="assets/acaai-evoclusterbandit-paper.pdf#view=FitH" title="ACAAI EvoClusterBandit paper"></iframe>
+              </article>
+              <article class="document-viewer">
+                <div class="document-heading">
+                  <span data-i18n="banditAcceptanceLabel">论文接收证明</span>
+                  <a href="assets/acaai-acceptance-letter.pdf" target="_blank" rel="noreferrer">PDF</a>
+                </div>
+                <iframe src="assets/acaai-acceptance-letter.pdf#view=FitH" title="ACAAI acceptance letter"></iframe>
+              </article>
+              <article class="document-viewer">
+                <div class="document-heading">
+                  <span data-i18n="banditRecommendationLabel">导师推荐信</span>
+                  <a href="assets/bandit-recommendation-letter.pdf" target="_blank" rel="noreferrer">PDF</a>
+                </div>
+                <iframe src="assets/bandit-recommendation-letter.pdf#view=FitH" title="Bandit recommendation letter"></iframe>
+              </article>
+              <article class="document-viewer">
+                <div class="document-heading">
+                  <span data-i18n="banditCertificateLabel">结课证书</span>
+                  <a href="assets/rl-course-certificate.pdf" target="_blank" rel="noreferrer">PDF</a>
+                </div>
+                <iframe src="assets/rl-course-certificate.pdf#view=FitH" title="Bandit program certificate"></iframe>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

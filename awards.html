@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awards & Projects | Gerrard Ren</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ambient-light" aria-hidden="true"></div>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">R</span>
+          <span class="brand-text" data-i18n="brand">Gerrard Ren</span>
+        </a>
+        <div class="header-actions">
+          <button class="language-toggle" type="button" aria-label="Switch language">
+            <span class="toggle-track" aria-hidden="true">
+              <span class="toggle-thumb"></span>
+            </span>
+            <span class="language-label">EN</span>
+          </button>
+        </div>
+      </header>
+
+      <main class="showcase-page">
+        <section class="showcase-intro section-reveal">
+          <h1 data-i18n="awardsPageTitle">获奖情况及项目经历</h1>
+          <p data-i18n="awardsPageIntro">
+            目前我主要展示 2026 年美国大学生数学建模竞赛 Honorable Mention 经历。该经历体现了我在问题建模、
+            数据分析、团队协作与英文论文表达方面的综合训练。
+          </p>
+          <a class="profile-link" href="https://github.com/gerrard8-liverpool" target="_blank" rel="noreferrer">
+            <span data-i18n="githubProfile">GitHub 个人主页</span>
+            <strong>github.com/gerrard8-liverpool</strong>
+          </a>
+        </section>
+
+        <section class="story-block section-reveal">
+          <div class="story-heading">
+            <span>2026</span>
+            <div>
+              <h2 data-i18n="mcmTitle">美国大学生数学建模竞赛 Honorable Mention</h2>
+              <p data-i18n="mcmMeta">Mathematical Contest in Modeling · Honorable Mention</p>
+            </div>
+          </div>
+
+          <p class="story-summary" data-i18n="mcmSummary">
+            在本次美赛中，我参与完成一个与 Liverpool 相关的建模问题，主要围绕问题拆解、数据处理、模型设计、
+            结果分析与英文论文写作展开。项目训练了我将开放式现实问题转化为可计算模型的能力，也强化了我对结果表达、
+            论文结构和团队协作节奏的理解。
+          </p>
+
+          <button class="expand-toggle" type="button" data-expand-target="mcm-documents" aria-expanded="false">
+            <span data-i18n="expandDetails">展开详情</span>
+          </button>
+
+          <div class="expand-panel" id="mcm-documents" hidden>
+            <div class="document-grid">
+              <article class="document-viewer">
+                <div class="document-heading">
+                  <span data-i18n="awardProofLabel">获奖证明</span>
+                  <a href="assets/mcm-award-proof.pdf" target="_blank" rel="noreferrer">PDF</a>
+                </div>
+                <iframe src="assets/mcm-award-proof.pdf#view=FitH" title="MCM award proof"></iframe>
+              </article>
+              <article class="document-viewer">
+                <div class="document-heading">
+                  <span data-i18n="mcmPaperLabel">美赛论文</span>
+                  <a href="assets/mcm-paper.pdf" target="_blank" rel="noreferrer">PDF</a>
+                </div>
+                <iframe src="assets/mcm-paper.pdf#view=FitH" title="MCM paper"></iframe>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
